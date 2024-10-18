@@ -8,7 +8,7 @@ app = Flask(__name__)
 def dispatch():
     data = request.get_json()
     # Do something with the data
-    respuesta = procesar_json(data)
+    respuesta = process_json(data)
    
     try: 
         return jsonify(respuesta)
