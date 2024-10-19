@@ -1,6 +1,7 @@
 # Use 
 
 This is an app is feed payloads (like the ones in example payloads that contains)
+Its a solution to the challenge from [GEMS](https://github.com/gems-st-ib/powerplant-coding-challenge)
 
 ## Execution
 
@@ -19,7 +20,7 @@ docker run -p 8808:8808 flask-app
 
 ## Usage 
 
-You have a python example of the usage in example_usage.py(example_usage.py).
+You have a python example of the usage in [example_usage.py](example_usage.py).
 You have to send your payload to 'http://localhost:8808/productionplan'
 
 ## Loads of the proyect
