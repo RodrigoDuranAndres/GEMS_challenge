@@ -20,7 +20,7 @@ docker run -p 8808:8808 flask-app
 
 ## Usage 
 
-You have a python example of the usage in [example_usage.py](example_usage.py).
+You have a python example of the usage in [example_usage.py](app/utils/example_usage.py).
 You have to send your payload to 'http://localhost:8808/productionplan'
 
 ## Loads of the proyect
