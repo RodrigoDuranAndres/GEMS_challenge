@@ -18,4 +18,3 @@ class Powerplant:
         
     def __str__(self) -> str:
         return f"Poweplant: {self.name} ({self.tipe}) - efficiency: {self.efficiency:.2f} - Cost per MWh: {self.price_energy_unit}"
-        

@@ -26,6 +26,7 @@ You have to send your payload to 'http://localhost:8808/productionplan'
 
 #### Payload
 
+You can find examples in example_payloads/*
 The payload contains 3 types of data:
  - load: The load is the amount of energy (MWh) that need to be generated during one hour.
  - fuels: based on the cost of the fuels of each powerplant, the merit-order can be determined which is the starting point for deciding which powerplants should be switched on and how much power they will deliver.  Wind-turbine are either switched-on, and in that case generate a certain amount of energy depending on the % of wind, or can be switched off. 
@@ -42,6 +43,7 @@ The payload contains 3 types of data:
 
 #### Response
 
+You can find examples in example_outputs/*
 The reponse contains 2 types of data
 - name: name of the power plant
 - p: is the energy producio
