@@ -1,3 +1,0 @@
-docker build -t flask-app .
-
-docker run -p 8808:8808 flask-app

@@ -2,3 +2,4 @@
 .env
 outputs_prueba/*
 pruebas.ipynb
+methods.py

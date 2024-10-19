@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify
-from utils.methods import *
+from utils.methods_advance import *
 from utils.clases import *
 
 app = Flask(__name__)
 
-@app.route('/dispatch', methods=['POST'])
+@app.route('/productionplan', methods=['POST'])
 def dispatch():
     data = request.get_json()
     # Do something with the data
