@@ -4,7 +4,7 @@ In this document you can find the reasoning behind the code.
 
 ## Methods Advance
 
-In the code methods_advance.py(methods_advance.py), is where the calculations take place.
+In the code [methods_advance.py](methods_advance.py), is where the calculations take place.
 
 ### Dicontinuity
 
