@@ -5,10 +5,6 @@ Its a solution to the challenge from [GEMS](https://github.com/gems-st-ib/powerp
 
 ## Execution
 
-First make sure you are in the folder that has the docker file
-```
-cd app
-```
 Make sure you have your  Docker Engine Runnning, then built up the docker volume 
 ```
 docker build -t flask-app ./app/
