@@ -1,5 +1,8 @@
 .venv
 .env
-outputs_prueba/*
 pruebas.ipynb
 methods.py
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+**/__pycache__

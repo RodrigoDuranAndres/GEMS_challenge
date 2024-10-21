@@ -8,12 +8,12 @@ app = Flask(__name__)
 def dispatch():
     data = request.get_json()
     # Do something with the data
-    respuesta = process_json(data)
+    response = process_json(data)
    
     try: 
-        return jsonify(respuesta)
+        return jsonify(response)
     except:
-        return jsonify("Nada")
+        return jsonify("Nothing")
 
 if __name__ == '__main__':
     app.run(port=8808)

@@ -44,4 +44,3 @@ You can find examples in example_outputs/*
 The reponse contains 2 types of data
 - name: name of the power plant
 - p: is the energy producio
-

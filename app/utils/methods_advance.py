@@ -172,16 +172,16 @@ def read_json(data):
     price_kerosine = fuels["kerosine(euro/MWh)"]
     price_co2 = fuels["co2(euro/ton)"]
     
-    instancias = []
+    instances = []
     for plant in Powerplants:
         if plant['type'] == 'windturbine':
-            instancia = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'] * velocidad_viento)
+            instance = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'] * velocidad_viento)
         elif plant['type'] == 'gasfired':
-            instancia = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'], price_gas, price_co2 = price_co2)
+            instance = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'], price_gas, price_co2 = price_co2)
         elif plant['type'] == 'turbojet':
-            instancia = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'], price_kerosine)
+            instance = Powerplant(plant['name'], plant['type'], plant['efficiency'], plant['pmin'], plant['pmax'], price_kerosine)
         else:
             raise ValueError(f"Unknown Powerplant type: {plant['type']}")
-        instancias.append(instancia)
+        instances.append(instance)
     
-    return load, instancias
+    return load, instances
